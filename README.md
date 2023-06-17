@@ -1,20 +1,24 @@
-# Backroads App
+# Backroads 🏖️
 
-[Working Application - Deployed](https://backroads-app.netlify.app/)
+> PROD [Live] : https://react-backroads-v2-prod.netlify.app
+
+To run the project locally, clone the repo, `npm install` to install the dependencies, and `npm start` to start up the development server on default port 3000.
+
+#### Languages
+
+HTML, CSS, JavaScript, ECMAScript, React 
+
+#### Deployment / Hosting
+
+Netlify
+
+## Notes
 
 - backroads-html - working html/css/javascript project (contains assets)
 - final(complete source code) - working react application
   - navigate to the folder
   - run 'npm install'
   - once the dependencies are installed run 'npm start'
-
-#### React Course
-
-[My React Course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
-
-#### Support
-
-Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
 
 #### Create New React App
 
@@ -402,3 +406,6 @@ package.json
     "eject": "react-scripts eject"
   },
 ```
+---
+
+_Note: I have developed this project ~ [1] as part of React 18 Tutorial and Projects Course (2023) taught by John Smilga._
