@@ -23,7 +23,7 @@ const About = () => {
             unde dolor?
           </p>
           {/* /# - To remove warning */}
-          <a href="/#" className="btn">
+          <a href="#" className="btn">
             read more
           </a>
         </article>
