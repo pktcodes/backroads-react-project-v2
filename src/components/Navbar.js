@@ -15,7 +15,7 @@ const Navbar = () => {
         <ul className="nav-links" id="nav-links">
           {pageLinks.map((link) => {
             return (
-              <li id={link.id}>
+              <li key={link.id}>
                 <a href={link.href} className="nav-link">
                   {link.text}
                 </a>
@@ -28,7 +28,7 @@ const Navbar = () => {
           {socialLinks.map((link) => {
             const { id, href, icon } = link;
             return (
-              <li id={id}>
+              <li key={id}>
                 <a
                   href={href}
                   target="_blank"
